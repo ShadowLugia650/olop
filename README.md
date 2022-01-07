@@ -12,20 +12,22 @@ pip install olop-ShadowLugia650
 These files are located within [src/olp](https://github.com/ShadowLugia650/olop/tree/master/src/olp)
 
 ### [olp.py](https://github.com/ShadowLugia650/olop/blob/master/src/olp/olp.py): primitives within olp to be imported for olp scripts
- * `__import__("olp").primitives`
- * includes: one-line while loop, one-line do while loop,
+```py
+__import__("olp").olp.primitives
+```
+includes: one-line while loop, one-line do while loop, inheritance
 
 ### [oldec.py](https://github.com/ShadowLugia650/olop/blob/master/src/olp/oldec.py): a one-line python decoder file which can be called from a python script. Common Usage:
-```
-globals().update(oldec = __import__("oldec")) or oldec.beautify(oldec.parse_recursive("SOME_OLP_STRING"))
+```py
+globals().update(oldec = __import__("olp").oldec) or oldec.beautify(oldec.parse_recursive("SOME_OLP_STRING"))
 ```
 or, for non olp programmers
-```
-import oldec
+```py
+from olp import oldec
 
 code = oldec.beautify(oldec.parse_recursive("SOME_OLP_STRING"))
 ```
-NOTE: oldec.py cannot fully parse any one-line python file, as they can take numerous different forms, and it looks for specific aspects within some one-line python programs (it doesn't work on itself either) 
+NOTE: oldec.py cannot parse all arbitrary one-line python files, as they can take numerous different forms (such as `and` OLP vs `or` OLP), and it looks for specific aspects within some one-line python programs (it doesn't work on itself either) 
 
 ### [oldec_cmd.py](https://github.com/ShadowLugia650/olop/blob/master/src/olp/oldec_cmd.py): a one-line python decoding command line utility, for decoding olp outside of a python script. Common Usage:
 ```
