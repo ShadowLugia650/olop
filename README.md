@@ -8,7 +8,7 @@ pip install olop-ShadowLugia650
 
 [Wiki](https://github.com/ShadowLugia650/olop/wiki): [FAQ](https://github.com/ShadowLugia650/olop/wiki/Frequently-Asked-Questions) and [OLP Tips and Tricks](https://github.com/ShadowLugia650/olop/wiki/OLP-Tips-and-Tricks)
 
-## One-Line python (olp)
+## One-Line Python (OLP)
 These files are located within [src/olp](https://github.com/ShadowLugia650/olop/tree/master/src/olp)
 
 ### [olp.py](https://github.com/ShadowLugia650/olop/blob/master/src/olp/olp.py): primitives within olp to be imported for olp scripts
