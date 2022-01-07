@@ -13,13 +13,13 @@ These files are located within [src/olp](https://github.com/ShadowLugia650/olop/
 
 ### [olp.py](https://github.com/ShadowLugia650/olop/blob/master/src/olp/olp.py): primitives within olp to be imported for olp scripts
 ```py
-__import__("olp").olp.primitives
+__import__("olp", fromlist=("olp")).olp.primitives
 ```
 includes: one-line while loop, one-line do while loop, inheritance
 
 ### [oldec.py](https://github.com/ShadowLugia650/olop/blob/master/src/olp/oldec.py): a one-line python decoder file which can be called from a python script. Common Usage:
 ```py
-globals().update(oldec = __import__("olp").oldec) or oldec.beautify(oldec.parse_recursive("SOME_OLP_STRING"))
+globals().update(oldec = __import__("olp", fromlist=("oldec")).oldec) or oldec.beautify(oldec.parse_recursive("SOME_OLP_STRING"))
 ```
 or, for non olp programmers
 ```py
