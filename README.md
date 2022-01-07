@@ -1,5 +1,4 @@
-# olop
-OLOP: One-Line &amp; Obfuscated Python
+# OLOP: One-Line &amp; Obfuscated Python
 
 This repository contains useful python modules for one-line and obfuscated python.
 
