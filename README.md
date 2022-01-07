@@ -26,3 +26,6 @@ oldec_cmd.py: a one-line python decoding command line utility, for decoding olp 
 python oldec_cmd.py <olp_file.py> -r -b
 ```
 `python oldec_cmd.py` can also be used to see usage information.
+
+## Obfuscated Python
+This is still a work in progress.
