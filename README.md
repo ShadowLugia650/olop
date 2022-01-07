@@ -5,7 +5,7 @@ This repository contains useful python modules for one-line and obfuscated pytho
 [Wiki](https://github.com/ShadowLugia650/olop/wiki)
 
 ## One-Line python (olp)
-These are located within ./olp
+These files are located within ./olp
 
 ### [olp.py](https://github.com/ShadowLugia650/olop/blob/master/olp/olp.py): primitives within olp to be imported for olp scripts
  * `__import__("olp").primitives`
@@ -30,4 +30,4 @@ python oldec_cmd.py <olp_file.py> -r -b
 `python oldec_cmd.py` can also be used to see usage information.
 
 ## Obfuscated Python
-This is still a work in progress.
+Prototyping this is still a work in progress.
