@@ -3,6 +3,8 @@ OLOP: One-Line &amp; Obfuscated Python
 
 This repository contains useful python modules for one-line and obfuscated python.
 
+[Wiki](https://github.com/ShadowLugia650/olop/wiki)
+
 ## One-Line python (olp)
 These are located within ./olp
 
