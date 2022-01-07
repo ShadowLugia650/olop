@@ -2,7 +2,7 @@
 
 This repository contains useful python modules for one-line and obfuscated python.
 
-[Wiki](https://github.com/ShadowLugia650/olop/wiki)
+[Wiki](https://github.com/ShadowLugia650/olop/wiki): [FAQ](https://github.com/ShadowLugia650/olop/wiki/Frequently-Asked-Questions) and [OLP Tips and Tricks](https://github.com/ShadowLugia650/olop/wiki/OLP-Tips-and-Tricks)
 
 ## One-Line python (olp)
 These files are located within ./olp
