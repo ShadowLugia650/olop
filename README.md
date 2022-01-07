@@ -20,6 +20,7 @@ import oldec
 
 code = oldec.beautify(oldec.parse_recursive("SOME_OLP_STRING"))
 ```
+NOTE: oldec.py cannot fully parse any one-line python file, as they can take numerous different forms, and it looks for specific aspects within some one-line python programs (it doesn't work on itself either) 
 
 oldec_cmd.py: a one-line python decoding command line utility, for decoding olp outside of a python script. Common Usage:
 ```
