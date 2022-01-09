@@ -35,5 +35,10 @@ python oldec_cmd.py <olp_file.py> -r -b
 ```
 `python oldec_cmd.py` can also be used to see usage information.
 
+If you've `pip install`ed `olop-ShadowLugia650`, you can also use
+```
+python -m olp.oldec_cmd <olp_file.py> -r -b
+```
+
 ## Obfuscated Python
 Prototyping this is still a work in progress.
